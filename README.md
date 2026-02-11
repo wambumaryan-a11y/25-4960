@@ -12,7 +12,6 @@ body{
   background:#f4f4f4;
 }
 
-/* NAVBAR */
 nav{
   display:flex;
   justify-content:space-around;
@@ -28,7 +27,6 @@ nav a{
   border-radius:6px;
 }
 
-/* SEARCH */
 .search{
   text-align:center;
   padding:20px;
@@ -38,14 +36,9 @@ nav a{
   padding:10px;
 }
 
-/* CONTENT */
 .container{
   width:90%;
   margin:auto;
-}
-
-h1{
-  margin-top:10px;
 }
 
 .paragraph{
@@ -55,33 +48,30 @@ h1{
   margin:20px 0;
 }
 
-/* IMAGE ROW */
+/* FOOD IMAGES */
 .images{
   display:grid;
   grid-template-columns: repeat(6,1fr);
   gap:10px;
 }
-.images div{
-  background:#ddd;
-  height:80px;
-  display:flex;
-  align-items:center;
-  justify-content:center;
+.images img{
+  width:100%;
+  height:120px;
+  object-fit:cover;
+  border-radius:8px;
 }
 
-/* VIDEO ROW */
+/* FOOD VIDEOS */
 .videos{
   display:grid;
   grid-template-columns: repeat(4,1fr);
   gap:10px;
   margin-top:15px;
 }
-.videos div{
-  background:#bbb;
-  height:100px;
-  display:flex;
-  align-items:center;
-  justify-content:center;
+.videos iframe{
+  width:100%;
+  height:180px;
+  border-radius:10px;
 }
 
 /* TABLES */
@@ -123,41 +113,41 @@ td,th{
 
 <div class="paragraph">
   <p>
-    This is your paragraph section. Add your description about recipes
-    or website content here.
+    Welcome to our food website! Here you can find amazing meals,
+    cooking ideas, and delicious recipes for everyone.
   </p>
 </div>
 
-<!-- IMAGES -->
+<!-- FOOD IMAGES -->
 <div class="images">
-  <div>Image 1</div>
-  <div>Image 2</div>
-  <div>Image 3</div>
-  <div>Image 4</div>
-  <div>Image 5</div>
-  <div>Image 6</div>
+  <img src="https://images.unsplash.com/photo-1604908176997-125f25cc6f3d" alt="pizza">
+  <img src="https://images.unsplash.com/photo-1546069901-ba9599a7e63c" alt="salad">
+  <img src="https://images.unsplash.com/photo-1565299624946-b28f40a0ae38" alt="burger">
+  <img src="https://images.unsplash.com/photo-1504674900247-0877df9cc836" alt="pasta">
+  <img src="https://images.unsplash.com/photo-1529042410759-befb1204b468" alt="dessert">
+  <img src="https://images.unsplash.com/photo-1512058564366-c9e3e0468e4b" alt="steak">
 </div>
 
-<!-- VIDEOS -->
+<!-- FOOD VIDEOS (YouTube embeds) -->
 <div class="videos">
-  <div>Video 1</div>
-  <div>Video 2</div>
-  <div>Video 3</div>
-  <div>Video 4</div>
+  <iframe src="https://www.youtube.com/embed/1-SJGQ2HLp8" allowfullscreen></iframe>
+  <iframe src="https://www.youtube.com/embed/dA8Smj5tZOQ" allowfullscreen></iframe>
+  <iframe src="https://www.youtube.com/embed/4aZr5hZXP_s" allowfullscreen></iframe>
+  <iframe src="https://www.youtube.com/embed/kRCH8kD1GD0" allowfullscreen></iframe>
 </div>
 
 <!-- TABLES -->
 <div class="tables">
   <table>
     <tr><th>Table 1</th></tr>
-    <tr><td>Data</td></tr>
-    <tr><td>Data</td></tr>
+    <tr><td>Pizza Recipe</td></tr>
+    <tr><td>Pasta Recipe</td></tr>
   </table>
 
   <table>
     <tr><th>Table 2</th></tr>
-    <tr><td>Data</td></tr>
-    <tr><td>Data</td></tr>
+    <tr><td>Burger Recipe</td></tr>
+    <tr><td>Salad Recipe</td></tr>
   </table>
 </div>
 
