@@ -134,7 +134,7 @@ td,th{
   <iframe src="https://www.youtube.com/embed/dA8Smj5tZOQ" allowfullscreen></iframe>
   <iframe src="https://www.youtube.com/embed/4aZr5hZXP_s" allowfullscreen></iframe>
   <iframe src="https://www.youtube.com/embed/kRCH8kD1GD0" allowfullscreen></iframe>
-</div><iframe width="560" height="315" src="https://www.youtube.com/embed/AmC9SmCBUj4?si=osCESwr4wzHg60XG" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<iframe src="https://www.youtube.com/embed/AmC9SmCBUj4?si=osCESwr4wzHg60XG"allowfullscreen></iframe>
 
 
 <!-- TABLES -->
