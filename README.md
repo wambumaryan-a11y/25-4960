@@ -341,12 +341,21 @@ Seafood Pasta
 
     
 </footer>
-<!-- Line 10: Footer -->
+
+
+
+
+
+
+<!-- Line 18: Footer -->
 <footer>
 
 
 
 
 
-<p>© 2026 RYAN WAMBUMA | All Rights Reserved</p>
+<p>
+
+      
+       © 2026 RYAN WAMBUMA | All Rights Reserved</p>
 
