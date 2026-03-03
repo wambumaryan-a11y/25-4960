@@ -1,87 +1,22 @@
-
-<html>
-<head><!-- External CSS -->
-<link rel="stylesheet" href="styles.css">
-
-<!-- Internal CSS -->
-<style>
-    body {
-        text-align: center;
-        background-color: #ffe4b5; /* not white */
-    }
-
-    .container {
-        border: 2px solid black;
-        padding: 15px;
-        margin: 20px auto;
-        width: 260px;
-        background-color: white;
-        border-radius: 10px;
-    }
-
-    img {
-        width: 200px;
-        height: 150px;
-        border-radius: 8px;
-    }
-</style>
-    <title>Food Website Paragraph Task</title>
-</head>
-<body>
-
-<!-- Line 1: Bold -->
-<p><b>Welcome to my website, your number one destination for amazing food experiences.</b></p>
-
-<!-- Line 2: Italic -->
-<p><i>We specialize in fresh, organic, and locally sourced ingredients.</i></p>
-
-<!-- Line 3: Underlined -->
-<p><u>Our chefs prepare every dish with passion and creativity.</u></p>
-
-<!-- Line 4: Superscript -->
-<p>Our restaurant was established in 2026<sup>th</sup> and has served over 10<sup>3</sup> happy customers.</p>
-
-<!-- Line 5: Subscript -->
-<p>Our secret sauce formula includes H<sub>2</sub>O and special spices.</p>
-
-<!-- Line 6: Strike -->
-<p><strike>We used to offer frozen meals.</strike> Now we serve only fresh dishes.</p>
-
-<!-- Line 7: Highlight -->
-<p><mark>Today’s Special Offer: Get 20% off on all pasta dishes!</mark></p>
-
-<!-- Line 8: Quotation -->
-<p><q>Good food is the foundation of genuine happiness.</q></p>
-
-<!-- Line 9: Indented Quotation -->
-<blockquote>
-    As Wambuma and team, we believe food brings people together.
-    Every meal tells a story of culture, flavor, and tradition.
-</blockquote>
-
-
-
-
-
-
-</table>
-
-</body>
-</html>
-
+<!DOCTYPE html>
 <html lang="en">
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Best Recipes 2026</title>
+<title>Ryan's Online Cook Book</title>
+
+<!-- External CSS -->
+<link rel="stylesheet" href="styles.css">
 
 <style>
 body{
   font-family: Arial, sans-serif;
   margin:0;
   background:#f4f4f4;
+  text-align:center;
 }
 
+/* Navigation */
 nav{
   display:flex;
   justify-content:space-around;
@@ -97,15 +32,17 @@ nav a{
   border-radius:6px;
 }
 
+/* Search */
 .search{
-  text-align:center;
   padding:20px;
 }
+
 .search input{
   width:60%;
   padding:10px;
 }
 
+/* Containers */
 .container{
   width:90%;
   margin:auto;
@@ -118,12 +55,13 @@ nav a{
   margin:20px 0;
 }
 
-/* FOOD IMAGES */
+/* Images */
 .images{
   display:grid;
   grid-template-columns: repeat(6,1fr);
   gap:10px;
 }
+
 .images img{
   width:100%;
   height:120px;
@@ -131,33 +69,45 @@ nav a{
   border-radius:8px;
 }
 
-/* FOOD VIDEOS */
+/* Videos */
 .videos{
   display:grid;
   grid-template-columns: repeat(4,1fr);
   gap:10px;
   margin-top:15px;
 }
+
 .videos iframe{
   width:100%;
   height:180px;
   border-radius:10px;
 }
 
-/* TABLES */
-.tables{
-  display:flex;
-  gap:20px;
-  margin:20px 0;
-}
+/* Tables */
 table{
-  width:50%;
+  width:100%;
   background:white;
   border-collapse:collapse;
+  margin:20px 0;
 }
+
 td,th{
   border:1px solid black;
   padding:10px;
+}
+
+/* ===== Paragraph Task Internal CSS ===== */
+.internal-paragraph {
+  color: orange;
+  font-weight: bold;
+}
+
+.internal-highlight {
+  color: green;
+}
+
+.internal-building {
+  color: brown;
 }
 </style>
 </head>
@@ -179,7 +129,7 @@ td,th{
 
 <div class="container">
 
-<h1> Ryan's online cook book</h1>
+<h1>Ryan's Online Cook Book</h1>
 
 <div class="paragraph">
   <p>
@@ -188,7 +138,21 @@ td,th{
   </p>
 </div>
 
-<!-- FOOD IMAGES -->
+<!-- ===== PARAGRAPH TASK SECTION ===== -->
+
+<p style="color: blue; font-style: italic;">Paragraph 1 - Inline CSS</p>
+<p class="internal-paragraph">Paragraph 2 - Internal CSS</p>
+<p class="external-paragraph">Paragraph 3 - External CSS</p>
+
+<h1 style="color: red;">Highlight 1 - Inline CSS</h1>
+<h1 class="internal-highlight">Highlight 2 - Internal CSS</h1>
+<h1 class="external-highlight">Highlight 3 - External CSS</h1>
+
+<h3 style="color: purple;">Building 1 - Inline CSS</h3>
+<h3 class="internal-building">Building 2 - Internal CSS</h3>
+<h3 class="external-building">Building 3 - External CSS</h3>
+
+<!-- IMAGES -->
 <div class="images">
   <img src="https://images.unsplash.com/photo-1604908176997-125f25cc6f3d" alt="pizza">
   <img src="https://images.unsplash.com/photo-1546069901-ba9599a7e63c" alt="salad">
@@ -196,190 +160,83 @@ td,th{
   <img src="https://images.unsplash.com/photo-1504674900247-0877df9cc836" alt="pasta">
   <img src="https://images.unsplash.com/photo-1529042410759-befb1204b468" alt="dessert">
   <img src="https://images.unsplash.com/photo-1604908176997-125f25cc6f3d" alt="chicken">
-  
- 
-  
 </div>
 
-
-<!-- FOOD VIDEOS (YouTube embeds) -->
+<!-- VIDEOS -->
 <div class="videos">
-  
   <iframe src="https://www.youtube.com/embed/dA8Smj5tZOQ" allowfullscreen></iframe>
   <iframe src="https://www.youtube.com/embed/4aZr5hZXP_s" allowfullscreen></iframe>
   <iframe src="https://www.youtube.com/embed/kRCH8kD1GD0" allowfullscreen></iframe>
-
-<iframe  src="https://www.youtube.com/embed/AmC9SmCBUj4?si" allowfullscreen></iframe>
-
-
-
- 
-
-
-<!-- Line 11: Line Breaks -->
-<p>
-Fresh Ingredients<br>
-Fast Delivery<br>
-Excellent Service<br>
-Affordable Prices
-</p>
-<!-- Line 12: 3 lines with HR -->
-<p>Breakfast Menu</p>
-<hr>
-<p>Lunch Menu</p>
-<hr>
-<p>Dinner Menu</p>
-
-<!-- Line 13: Preformatted text -->
-<pre>
-Grilled Chicken
-Veggie Burger
-Seafood Pasta
-</pre>
-</body>
-</html>
-
-<!-- Line 14: Lists -->
-<h3>Unordered List (5 items)</h3>
-<ul>
-    <li>Pizza</li>
-    <li>Burger</li>
-    <li>Pasta</li>
-    <li>Salad</li>
-    <li>Soup</li>
-</ul>
-
-<h3>Ordered List (5 items)</h3>
-<ol>
-    <li>Choose Meal</li>
-    <li>Add to Cart</li>
-    <li>Enter Address</li>
-    <li>Make Payment</li>
-    <li>Enjoy Food</li>
-</ol>
-
-<!-- Line 15: Nested List (6 items total) -->
-<h3>Nested List</h3>
-<ul>
-    <li>Main Course
-        <ul>
-            <li>Steak</li>
-            <li>Rice</li>
-            <li>Chicken</li>
-        </ul>
-    </li>
-    <li>Desserts
-        <ul>
-            <li>Ice Cream</li>
-            <li>Cake</li>
-            <li>Pudding</li>
-        </ul>
-    </li>
-</ul>
-
-<!-- Line 17: Table with 10 columns and 5 rows -->
-<h3>Food Price Table</h3>
-<table border="1">
-    <tr>
-        <th>Item</th>
-        <th>Category</th>
-        <th>Calories</th>
-        <th>Price</th>
-        <th>Rating</th>
-        <th>Available</th>
-        <th>Chef</th>
-        <th>Spicy Level</th>
-        <th>Prep Time</th>
-        <th>Discount</th>
-    </tr>
-    <tr>
-        <td>Pizza</td>
-        <td>Fast Food</td>
-        <td>300</td>
-        <td>sh.1000</td>
-        <td>4.5</td>
-        <td>Yes</td>
-        <td>John</td>
-        <td>Medium</td>
-        <td>15 min</td>
-        <td>10%</td>
-    </tr>
-    <tr>
-        <td>Burger</td>
-        <td>Fast Food</td>
-        <td>250</td>
-        <td>sh.800</td>
-        <td>4.2</td>
-        <td>Yes</td>
-        <td>Mary</td>
-        <td>Low</td>
-        <td>10 min</td>
-        <td>5%</td>
-    </tr>
-    <tr>
-        <td>Pasta</td>
-        <td>Italian</td>
-        <td>280</td>
-        <td>sh.1200</td>
-        <td>4.7</td>
-        <td>Yes</td>
-        <td>David</td>
-        <td>High</td>
-        <td>20 min</td>
-        <td>15%</td>
-    </tr>
-    <tr>
-        <td>Salad</td>
-        <td>Healthy</td>
-        <td>150</td>
-        <td>sh.700</td>
-        <td>4.3</td>
-        <td>Yes</td>
-        <td>Anna</td>
-        <td>Low</td>
-        <td>8 min</td>
-        <td>0%</td>
-    </tr>
-    <tr>
-        <td>Soup</td>
-        <td>Starter</td>
-        <td>120</td>
-        <td>sh.600</td>
-        <td>4.0</td>
-        <td>Yes</td>
-        <td>Chris</td>
-        <td>Medium</td>
-        <td>12 min</td>
-        <td>5%</td>
-    </tr>
+  <iframe src="https://www.youtube.com/embed/AmC9SmCBUj4" allowfullscreen></iframe>
 </div>
 
+<!-- LISTS -->
+<h3>Unordered List</h3>
+<ul>
+  <li>Pizza</li>
+  <li>Burger</li>
+  <li>Pasta</li>
+  <li>Salad</li>
+  <li>Soup</li>
+</ul>
 
+<h3>Ordered List</h3>
+<ol>
+  <li>Choose Meal</li>
+  <li>Add to Cart</li>
+  <li>Enter Address</li>
+  <li>Make Payment</li>
+  <li>Enjoy Food</li>
+</ol>
 
+<!-- TABLE -->
+<h3>Food Price Table</h3>
+<table>
+<tr>
+<th>Item</th>
+<th>Category</th>
+<th>Calories</th>
+<th>Price</th>
+<th>Rating</th>
+<th>Available</th>
+<th>Chef</th>
+<th>Spicy</th>
+<th>Prep Time</th>
+<th>Discount</th>
+</tr>
 
+<tr>
+<td>Pizza</td><td>Fast Food</td><td>300</td><td>sh.1000</td>
+<td>4.5</td><td>Yes</td><td>John</td><td>Medium</td><td>15 min</td><td>10%</td>
+</tr>
 
+<tr>
+<td>Burger</td><td>Fast Food</td><td>250</td><td>sh.800</td>
+<td>4.2</td><td>Yes</td><td>Mary</td><td>Low</td><td>10 min</td><td>5%</td>
+</tr>
 
+<tr>
+<td>Pasta</td><td>Italian</td><td>280</td><td>sh.1200</td>
+<td>4.7</td><td>Yes</td><td>David</td><td>High</td><td>20 min</td><td>15%</td>
+</tr>
 
+<tr>
+<td>Salad</td><td>Healthy</td><td>150</td><td>sh.700</td>
+<td>4.3</td><td>Yes</td><td>Anna</td><td>Low</td><td>8 min</td><td>0%</td>
+</tr>
 
+<tr>
+<td>Soup</td><td>Starter</td><td>120</td><td>sh.600</td>
+<td>4.0</td><td>Yes</td><td>Chris</td><td>Medium</td><td>12 min</td><td>5%</td>
+</tr>
+</table>
 
+</div>
 
-    
+<footer>
+<p>© 2026 RYAN WAMBUMA | All Rights Reserved</p>
 </footer>
 
-
-
-
-
-
-<!-- Line 18: Footer -->
-<footer>
-
-
-
-
-
-<p>
-
-      
-       © 2026 RYAN WAMBUMA | All Rights Reserved</p>
+</body>
+</html>
 
