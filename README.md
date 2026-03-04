@@ -7,31 +7,6 @@
 
 <!-- External CSS -->
 <link rel="stylesheet" href="styles.css">
-
-<style>
-body{
-  font-family: Arial, sans-serif;
-  margin:0;
-  background:#f4f4f4;
-  text-align:center;
-}
-
-/* Navigation */
-nav{
-  display:flex;
-  justify-content:space-around;
-  padding:15px;
-  background:#222;
-}
-
-nav a{
- color: #0000FF;
-  text-decoration:none;
-  padding:8px 18px;
-  border:1px solid white;
-  border-radius:6px;
-}
-
 <!-- Header -->
     <div class="container">
         <!-- Inline CSS -->
@@ -69,12 +44,47 @@ nav a{
     As Wambuma and team, we believe food brings people together.
     Every meal tells a story of culture, flavor, and tradition.
 </blockquote>
+<style>
+body{
+  font-family: Arial, sans-serif;
+  margin:0;
+  background: linear-gradient(to right, #0f2027, #203a43, #2c5364);
+  text-align:center;
+  color:white;
+}
 
+/* Navigation */
+nav{
+  display:flex;
+  justify-content:space-around;
+  padding:15px;
+  background:#001f3f;
+}
+
+nav a{
+  color:white;
+  text-decoration:none;
+  padding:8px 18px;
+  border:1px solid #00bfff;
+  border-radius:6px;
+  transition:0.3s;
+}
+
+nav a:hover{
+  background:#00bfff;
+  color:#001f3f;
+}
+
+/* Search */
+.search{
+  padding:20px;
 }
 
 .search input{
   width:60%;
   padding:10px;
+  border-radius:6px;
+  border:none;
 }
 
 /* Containers */
@@ -84,7 +94,8 @@ nav a{
 }
 
 .paragraph{
-  background:white;
+  background:#e6f2ff;
+  color:#003366;
   padding:25px;
   border-radius:10px;
   margin:20px 0;
@@ -121,30 +132,25 @@ nav a{
 /* Tables */
 table{
   width:100%;
-  background:white;
+  background:#e6f2ff;
+  color:#003366;
   border-collapse:collapse;
   margin:20px 0;
 }
 
 td,th{
-  border:1px solid black;
+  border:1px solid #003366;
   padding:10px;
 }
 
-/* ===== Paragraph Task Internal CSS ===== */
-.internal-paragraph {
-  color: orange;
-  font-weight: bold;
-}
-
-.internal-highlight {
-  color: green;
-}
-
-.internal-building {
-  color: brown;
+/* Footer */
+footer{
+  background:#001f3f;
+  padding:15px;
+  margin-top:20px;
 }
 </style>
+
 </head>
 
 <body>
