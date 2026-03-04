@@ -181,7 +181,7 @@ footer{
   Our recipes are carefully selected to ensure they are easy to follow, affordable, and made with fresh local ingredients.
 </p>
 
-<p class="external-paragraph">
+<p style="color:purple; font-style: underline;">
   From breakfast to dinner, explore a variety of dishes that will inspire your next delicious meal at home.
 </p>
 
@@ -204,6 +204,7 @@ footer{
 </h3>
 
 <h3 class="internal-building">
+    
   Outdoor Grill Section – Freshly grilled favorites
 </h3>
 
