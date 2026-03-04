@@ -284,7 +284,7 @@ td,th{
 </tr>
 </table>
 
-</div>
+
 
 <footer>
 <p>© 2026 RYAN WAMBUMA | All Rights Reserved</p>
