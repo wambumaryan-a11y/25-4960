@@ -149,20 +149,9 @@ td,th{
 
 <body>
 
-<!-- NAV -->
-<nav>
-  <a href="#">Home</a>
-  <a href="#">Contacts</a>
-  <a href="#">About</a>
-  <a href="#">Testimonials</a>
-</nav>
 
-<!-- SEARCH -->
-<div class="search">
-  <input type="text" placeholder="Search box">
-</div>
 
-<div class="container">
+
 
 <h1>Ryan's Online Cook Book</h1>
 
@@ -175,9 +164,9 @@ td,th{
 
 <!-- ===== PARAGRAPH TASK SECTION ===== -->
 
-<p style="color: blue; font-style: italic;">Paragraph 1 - Inline CSS</p>
-<p class="internal-paragraph">Paragraph 2 - Internal CSS</p>
-<p class="external-paragraph">Paragraph 3 - External CSS</p>
+<p style="color: blue; font-style: italic;">New recipes every week</p>
+<p class="internal-paragraph">cook with family and friends</p>
+<p class="external-paragraph">enjoy a home cooked meal</p>
 
 <h1 style="color: red;">Highlight 1 - Inline CSS</h1>
 <h1 class="internal-highlight">Highlight 2 - Internal CSS</h1>
