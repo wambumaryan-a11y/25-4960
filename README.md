@@ -25,7 +25,7 @@ nav{
 }
 
 nav a{
-  color:yellow;
+ color: #0000FF;
   text-decoration:none;
   padding:8px 18px;
   border:1px solid white;
