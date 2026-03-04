@@ -162,19 +162,48 @@ td,th{
   </p>
 </div>
 
-<!-- ===== PARAGRAPH TASK SECTION ===== -->
 
-<p style="color: blue; font-style: italic;">New recipes every week</p>
-<p class="internal-paragraph">cook with family and friends</p>
-<p class="external-paragraph">enjoy a home cooked meal</p>
 
-<h1 style="color: red;">Highlight 1 - Inline CSS</h1>
-<h1 class="internal-highlight">Highlight 2 - Internal CSS</h1>
-<h1 class="external-highlight">Highlight 3 - External CSS</h1>
+<!-- ===== PARAGRAPH TASK SECTION (Food Version) ===== -->
 
-<h3 style="color: purple;">Building 1 - Inline CSS</h3>
-<h3 class="internal-building">Building 2 - Internal CSS</h3>
-<h3 class="external-building">Building 3 - External CSS</h3>
+<!-- Paragraphs -->
+<p style="color: blue; font-style: italic;">
+  At Ryan's Online Cook Book, we believe cooking is an art that brings families together through flavor and creativity.
+</p>
+
+<p class="internal-paragraph">
+  Our recipes are carefully selected to ensure they are easy to follow, affordable, and made with fresh local ingredients.
+</p>
+
+<p class="external-paragraph">
+  From breakfast to dinner, explore a variety of dishes that will inspire your next delicious meal at home.
+</p>
+
+<!-- Highlights -->
+<h1 style="color: red;">
+  Today's Special: Spicy Chicken Pasta!
+</h1>
+
+<h1 class="internal-highlight">
+  Chef’s Recommendation: Grilled Steak with Herb Butter
+</h1>
+
+<h1 class="external-highlight">
+  Most Popular Recipe of 2026
+</h1>
+
+<!-- Buildings -->
+<h3 style="color: purple;">
+  Main Kitchen – Where the magic happens
+</h3>
+
+<h3 class="internal-building">
+  Outdoor Grill Section – Freshly grilled favorites
+</h3>
+
+<h3 class="external-building">
+  Dessert Corner – Sweet treats and baked delights
+</h3>
 
 <!-- IMAGES -->
 <div class="images">
