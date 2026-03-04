@@ -177,7 +177,7 @@ footer{
   At Ryan's Online Cook Book, we believe cooking is an art that brings families together through flavor and creativity.
 </p>
 
-<p class="internal-paragraph">
+<p style=" color:orange; font-style: bold;">
   Our recipes are carefully selected to ensure they are easy to follow, affordable, and made with fresh local ingredients.
 </p>
 
