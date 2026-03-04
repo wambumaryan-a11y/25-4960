@@ -203,7 +203,8 @@ footer{
   Main Kitchen – Where the magic happens
 </h3>
 
-<h3 class="internal-building">
+<h3 class="internal-building"
+    color:yellow;>
     
   Outdoor Grill Section – Freshly grilled favorites
 </h3>
