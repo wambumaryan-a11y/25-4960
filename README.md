@@ -10,7 +10,7 @@
 <!-- Header -->
     <div class="container">
         <!-- Inline CSS -->
-        <h1 style="color: red;">In the with Wambuma</h1>
+        <h1 style="color: red;"> KULAKULA</h1>
         <p>Welcome to my cooking website where I share delicious homemade meals.</p>
     </div>
 
